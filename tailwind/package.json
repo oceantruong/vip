@@ -1,0 +1,19 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "start:dev": "live-server src"
+  },
+  "keywords": [],
+  "author": "oceandev.com",
+  "license": "ISC",
+  "description": "oceandev.com",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
